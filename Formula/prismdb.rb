@@ -1,25 +1,25 @@
 class Prismdb < Formula
   desc "PrismDB command-line tools: the prismd server, the prism-shell client, and the fsck/dump utilities — one install, all binaries."
   homepage "https://github.com/HafizMMoaz/prism-db"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.1.0/prismdb-aarch64-apple-darwin.tar.xz"
-      sha256 "7b2b295009850b1e70e9a7049bbb400c276e4bfa48789dbd59a29833f2da05dc"
+      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.2.0/prismdb-aarch64-apple-darwin.tar.xz"
+      sha256 "a3f442b7406f0a5692163af4874036dc5a06cd1d51e8c3b7fec510bfb75e8ec8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.1.0/prismdb-x86_64-apple-darwin.tar.xz"
-      sha256 "d1a70a8fb3c3c0f7f1f9f17c6782e31278214681d0b0fda53091fd175fe2f013"
+      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.2.0/prismdb-x86_64-apple-darwin.tar.xz"
+      sha256 "01e62b0587d6a614722bbd4b493745db31e52a315454a6edd7a1582656cbddfd"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.1.0/prismdb-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6b741d56fcb6c4c2ea28b74822d36c1c983ba9e86b962c5a16c635453f8a1cd9"
+      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.2.0/prismdb-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a246227b73b5df069dab1dc56a35cb278dc0037226896af77758fc55cc51f74e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.1.0/prismdb-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3357e47725ecced9bc3519d8893f21d59913d21702f9d8e8a715967e254da567"
+      url "https://github.com/HafizMMoaz/prism-db/releases/download/v0.2.0/prismdb-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4ca33fa2cc9b81ce32feebc6c03d40231b1b02205199405d91663b5a1cdac744"
     end
   end
   license "Apache-2.0"
